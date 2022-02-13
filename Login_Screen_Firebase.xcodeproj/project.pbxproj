@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B8EE3FCEF4F1CE62D29AFF4 /* Pods_Login_Screen_Firebase_Login_Screen_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B57DB17D9F411BD0164DFA /* Pods_Login_Screen_Firebase_Login_Screen_FirebaseUITests.framework */; };
 		D1F5B23C515E841C3A12B75E /* Pods_Login_Screen_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CE411CB8C568CB353F7E48 /* Pods_Login_Screen_Firebase.framework */; };
+		D3A45F7927AEBDBC00BAF80F /* GetDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A45F7827AEBDBC00BAF80F /* GetDataViewModel.swift */; };
 		D3C7A52927A9F69300481701 /* Login_Screen_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7A52827A9F69300481701 /* Login_Screen_FirebaseApp.swift */; };
 		D3C7A52B27A9F69300481701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7A52A27A9F69300481701 /* ContentView.swift */; };
 		D3C7A52D27A9F69500481701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C7A52C27A9F69500481701 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		D3C7A53A27A9F69500481701 /* Login_Screen_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7A53927A9F69500481701 /* Login_Screen_FirebaseTests.swift */; };
 		D3C7A54427A9F69500481701 /* Login_Screen_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7A54327A9F69500481701 /* Login_Screen_FirebaseUITests.swift */; };
 		D3C7A54627A9F69500481701 /* Login_Screen_FirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7A54527A9F69500481701 /* Login_Screen_FirebaseUITestsLaunchTests.swift */; };
+		D3C7A55327ADB1E300481701 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C7A55227ADB1E300481701 /* GoogleService-Info.plist */; };
 		D49CB743CD326A195E6672BC /* Pods_Login_Screen_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307FDA81500739B9FC9EC028 /* Pods_Login_Screen_FirebaseTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,7 @@
 		53CE411CB8C568CB353F7E48 /* Pods_Login_Screen_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Screen_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		704DDB8713590697DE1AA0E4 /* Pods-Login_Screen_FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Screen_FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-Login_Screen_FirebaseTests/Pods-Login_Screen_FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6FC485736D48238A06AFAF0 /* Pods-Login_Screen_FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Screen_FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-Login_Screen_FirebaseTests/Pods-Login_Screen_FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3A45F7827AEBDBC00BAF80F /* GetDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewModel.swift; sourceTree = "<group>"; };
 		D3C7A52527A9F69300481701 /* Login_Screen_Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Screen_Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C7A52827A9F69300481701 /* Login_Screen_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Screen_FirebaseApp.swift; sourceTree = "<group>"; };
 		D3C7A52A27A9F69300481701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		D3C7A53F27A9F69500481701 /* Login_Screen_FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login_Screen_FirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C7A54327A9F69500481701 /* Login_Screen_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Screen_FirebaseUITests.swift; sourceTree = "<group>"; };
 		D3C7A54527A9F69500481701 /* Login_Screen_FirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Screen_FirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3C7A55227ADB1E300481701 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D9B64065F2D84ABF6DF58630 /* Pods-Login_Screen_Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Screen_Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Login_Screen_Firebase/Pods-Login_Screen_Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,13 +110,13 @@
 				704DDB8713590697DE1AA0E4 /* Pods-Login_Screen_FirebaseTests.debug.xcconfig */,
 				A6FC485736D48238A06AFAF0 /* Pods-Login_Screen_FirebaseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		D3C7A51C27A9F69300481701 = {
 			isa = PBXGroup;
 			children = (
+				D3A45F7827AEBDBC00BAF80F /* GetDataViewModel.swift */,
 				D3C7A52727A9F69300481701 /* Login_Screen_Firebase */,
 				D3C7A53827A9F69500481701 /* Login_Screen_FirebaseTests */,
 				D3C7A54227A9F69500481701 /* Login_Screen_FirebaseUITests */,
@@ -138,6 +142,7 @@
 				D3C7A52827A9F69300481701 /* Login_Screen_FirebaseApp.swift */,
 				D3C7A52A27A9F69300481701 /* ContentView.swift */,
 				D3C7A52C27A9F69500481701 /* Assets.xcassets */,
+				D3C7A55227ADB1E300481701 /* GoogleService-Info.plist */,
 				D3C7A52E27A9F69500481701 /* Preview Content */,
 			);
 			path = Login_Screen_Firebase;
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C7A53027A9F69500481701 /* Preview Assets.xcassets in Resources */,
+				D3C7A55327ADB1E300481701 /* GoogleService-Info.plist in Resources */,
 				D3C7A52D27A9F69500481701 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C7A52B27A9F69300481701 /* ContentView.swift in Sources */,
+				D3A45F7927AEBDBC00BAF80F /* GetDataViewModel.swift in Sources */,
 				D3C7A52927A9F69300481701 /* Login_Screen_FirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
